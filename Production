@@ -5,7 +5,22 @@
             "produces": [
                 {
                     "intervalSeconds": 240,
-                    "alternateItemChance": 0.1,
+                    "alternateItemChance": 0.5,
+                    "items": [
+                        "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Silicon.PrimalItemResource_Silicon'"
+                    ],
+                    "alternateItems": [
+                        "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_BlackPearl.PrimalItemResource_BlackPearl'"
+                    ]
+                }
+            ]
+        },
+        {
+            "dinoType": "Blueprint'/Game/PrimalEarth/Dinos/Otter/Otter_Character_BP_Aberrant.Otter_Character_BP_Aberrant'",
+            "produces": [
+                {
+                    "intervalSeconds": 240,
+                    "alternateItemChance": 0.5,
                     "items": [
                         "Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Silicon.PrimalItemResource_Silicon'"
                     ],
